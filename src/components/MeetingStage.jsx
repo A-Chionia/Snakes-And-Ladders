@@ -74,7 +74,7 @@ useEffect(() => {
         }
         else
         {
-          sendMessage("GameLoader", "LoadGame", array[0]); 
+          sendMessage("Dummy", "LoadGame", array[0]); 
 
           sendMessage("Dice", "RollFromReact", array[0]);
         }
